@@ -1,0 +1,8 @@
+node_modules
+dist
+.next
+.turbo
+migrations
+generated
+pnpm-lock.yaml
+*.lock
