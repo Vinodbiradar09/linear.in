@@ -1,0 +1,29 @@
+{
+  "name": "@repo/auth",
+  "version": "0.0.0",
+  "dependencies": {
+    "@better-auth/drizzle-adapter": "^1.6.9",
+    "@repo/db": "workspace:*",
+    "better-auth": "^1.6.9"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "^22.15.3",
+    "dotenv": "^17.4.2",
+    "typescript": "^6.0.3"
+  },
+  "exports": {
+    "./auth": {
+      "types": "./src/auth.ts",
+      "default": "./src/auth.ts"
+    },
+    "./client": {
+      "types": "./src/client.ts",
+      "default": "./src/client.ts"
+    },
+    "./types": {
+      "types": "./src/types.ts",
+      "default": "./src/types.ts"
+    }
+  }
+}
